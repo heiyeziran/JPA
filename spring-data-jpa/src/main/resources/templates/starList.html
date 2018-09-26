@@ -1,0 +1,37 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="zh-CN">
+<head>
+    <script type="text/javascript" th:src="@{https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js}"></script>
+    <link th:href="@{https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css}" rel="stylesheet"/>
+    <meta charset="UTF-8"/>
+    <title>dj列表</title>
+<body>
+<div class="container">
+    <h3>Spring Data JPA练习 </h3>
+    <table class="table table-hover table-condensed">
+        <legend>
+            <strong>dj表</strong>
+        </legend>
+        <thead>
+        <tr>
+            <th>编号</th>
+            <th>简介</th>
+            <th>名字</th>
+            <th>性别</th>
+            <th>作品</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="star : ${starList}">
+            <th scope="row" th:text="${star.id}"></th>
+            <td th:text="${star.starInfo}"></td>
+            <td><a th:href="@{/star/{starId}(starId=${star.id})}" th:text="${star.starName}"></a></td>
+            <td th:text="${star.starSex}"></td>
+            <td th:text="${star.starWorks}"></td>
+
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

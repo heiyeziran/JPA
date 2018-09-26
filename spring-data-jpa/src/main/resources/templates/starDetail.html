@@ -1,0 +1,32 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="zh-CN">
+<head>
+    <script type="text/javascript" th:src="@{https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js}"></script>
+    <link th:href="@{https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css}" rel="stylesheet"/>
+    <style>
+        .pic{
+            height: 200px;
+            width:150px;
+        }
+    </style>
+    <meta charset="UTF-8"/>
+    <title>dj展示表</title>
+</head>
+<body>
+<div class="container">
+    <h3>Spring Data JPA练习 </h3>
+    <legend>
+        <strong>dj表</strong>
+    </legend>
+    <div class="col-md-4">
+        <p th:text="${star.id}"></p>
+        <img src="">
+        <p th:text="${star.starInfo}"></p>
+        <img th:src="@{${star.starImage}}" class="pic" >
+        <p th:text="${star.starName}"></p>
+        <p th:text="${star.starSex}"></p>
+        <p th:text="${star.starWorks}"></p>
+    </div>
+</div>
+</body>
+</html>
