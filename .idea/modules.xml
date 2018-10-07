@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringBootExample.iml" filepath="$PROJECT_DIR$/SpringBootExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quickstart/quickstart.iml" filepath="$PROJECT_DIR$/quickstart/quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scheduletask/scheduletask.iml" filepath="$PROJECT_DIR$/scheduletask/scheduletask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" filepath="$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quickstart/spring-data-jpa-show.iml" filepath="$PROJECT_DIR$/quickstart/spring-data-jpa-show.iml" />
+    </modules>
+  </component>
+</project>
