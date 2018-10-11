@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="scheduletask" />
+        <module name="schedulertask" />
         <module name="spring-data-jpa" />
         <module name="spring-data-jpa-show" />
+        <module name="websocket" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="schedulertask" target="1.8" />
       <module name="scheduletask" target="1.8" />
       <module name="spring-data-jpa" target="1.8" />
       <module name="spring-data-jpa-show" target="1.8" />
+      <module name="websocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

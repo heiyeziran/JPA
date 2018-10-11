@@ -45,6 +45,7 @@
         <option value="$PROJECT_DIR$/spring-data-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/scheduletask/pom.xml" />
+        <option value="$PROJECT_DIR$/websocket/pom.xml" />
       </list>
     </option>
   </component>

@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>WebSocketServer</title>
 </head>
 <body>
-$END$
+<form id="login" action="/socket/push" method="get">
+    <label>
+        <input id="msg" type="text" name="message" style="width:100px;height:25px;" />
+    </label>
+    <br>
+    <br>
+    <input type="submit" id="btn"  style="width:50px;height:30px;"value="提交"/>
+</form>
 </body>
 </html>
